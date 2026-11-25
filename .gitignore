@@ -1,0 +1,87 @@
+# Dependencies and build artifacts
+node_modules/
+.pnpm-store/
+.playwright-cli/
+dist/
+coverage/
+.vite/
+playwright-report/
+test-results/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Local configuration
+.env
+.prototype-runtime.json
+.env.*
+!.env.example
+*.log
+
+# Private runtime data and genealogy exports
+/data/
+/uploads/
+/backups/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.ged
+*.gedcom
+*.gdz
+*.gedzip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+
+/exports/
+*.zip
+
+
+# Local planning, experiments and release output
+/docs/
+/output/
+/release/
+/releases/
+/build/
+/design/
+/visualizations/
+/Microsoft/
+/Start-Prototype.ps1
+/URUCHOMIENIE.txt
+/public/favicon.svg
+*.spec
+*.exe
+*.msi
+
+# Local AI and editor instructions and working files
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+.codex/
+.claude/
+.cursor/
+.windsurf/
+/.github/copilot-instructions.md
+.idea/
+.vscode/
+*.pem
+*.key
+*.pfx
+
+# Public synthetic example
+!/examples/alderwood-family.ged
